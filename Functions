@@ -1,0 +1,262 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Bienvenue dans Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PANDOUNA/Hope/blob/main/Functions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5fCEDCU_qrC0"
+      },
+      "source": [
+        "<p><img alt=\"Colaboratory logo\" height=\"45px\" src=\"/img/colab_favicon.ico\" align=\"left\" hspace=\"10px\" vspace=\"0px\"></p>\n",
+        "\n",
+        "<h1>Qu'est-ce que Colaboratory ?</h1>\n",
+        "\n",
+        "Colaboratory, souvent raccourci en \"Colab\", vous permet d'écrire et d'exécuter du code Python dans votre navigateur. Il offre les avantages suivants :\n",
+        "- Aucune configuration requise\n",
+        "- Accès gratuit aux GPU\n",
+        "- Partage facile\n",
+        "\n",
+        "Que vous soyez <strong>étudiant</strong>, <strong>data scientist</strong> ou <strong>chercheur en IA</strong>, Colab peut vous simplifier la tâche. Regardez la <a href=\"https://www.youtube.com/watch?v=inN8seMm7UI\">présentation de Colab</a> pour en savoir plus ou commencez tout de suite."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UcYYm8aOn2-L"
+      },
+      "source": [
+        "# Question 2:\n",
+        "def last(n):\n",
+        "    return n[-1]  \n",
+        " \n",
+        "def sort(tuples):\n",
+        "    return sorted(tuples, key=last)\n",
+        " \n",
+        "tuples=input(\"Enter a list of tuples:\")\n",
+        "print(\"Sorted:\")\n",
+        "print(sort(tuples))\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5Lb8qIP1qs5c"
+      },
+      "source": [
+        "#Question 3:\n",
+        "d1={'a':100 ,'b':200,'c':a}\n",
+        "d2={'a':100,'b':150 ,'d':b}\n",
+        "for x,y in d1.items():\n",
+        "   for i,j in d2.items():\n",
+        "      if i==x:\n",
+        "        d3[i]:(y+x)\n",
+        "print(d3)\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QFMmZwpxcYde"
+      },
+      "source": [
+        "#Question 3:\n",
+        "list1=list(input(\"write a mist of numbers\"))\n",
+        "total=0\n",
+        "for i in range(0, len(list1)):\n",
+        "    total = total + list1[i]\n",
+        "print(\"Sum of all elements in given list: \", total)\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0RLOP_4Rcls-"
+      },
+      "source": [
+        "#Question 2\n",
+        "def calc(x,y):\n",
+        "  return (x+y) \n",
+        "def mul(x,y):\n",
+        "  return (x*y)\n",
+        "print(calc(2,6),mul(2,6))"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xZ5L_0Bzcr_j"
+      },
+      "source": [
+        "   #functions \n",
+        "   # Question 1\n",
+        "def max_of_two(x,y):\n",
+        "   if x<y:\n",
+        "     return y\n",
+        "   else :\n",
+        "     return x\n",
+        "def max_of_three(x,y,z):\n",
+        "   return (max_of_two(y,max_of_two(x,z))\n",
+        "print(max_of_three(4,1,3))"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4A0HqRrvm_4n",
+        "outputId": "14f179c7-7cb9-4813-a0b8-d975cbd08cab",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 132
+        }
+      },
+      "source": [
+        "#Question 3:\n",
+        "mylist=list(input(\"ecrire une liste de nombres\"))\n",
+        "def multiplyList(myList) :\n",
+        "    result = 1\n",
+        "    for x in myList:\n",
+        "         result = result * x\n",
+        "\n",
+        "    return result\n",
+        "def sumlist(mylist) :\n",
+        "  r=0\n",
+        "  for i in mylist:\n",
+        "    r= r+x\n",
+        "  return r\n",
+        "\n",
+        "def trier(mylist):\n",
+        "   sum=0\n",
+        "  b=len(mylist)\n",
+        "  for i in range(0,b+1,2):\n",
+        "      sum+= i\n",
+        "    print(sum)\n",
+        "\n",
+        "    \n",
+        "\n"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-5-d6ad9a2608b6>\"\u001b[0;36m, line \u001b[0;32m17\u001b[0m\n\u001b[0;31m    b= len(mylist)\u001b[0m\n\u001b[0m                  ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "sWpq2bR2kxFg",
+        "outputId": "c8303662-ef9f-4c8c-f3c6-94f20884816a",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 257
+        }
+      },
+      "source": [
+        "#Question 4:\n",
+        "g=int(input(\"write number of words \"))\n",
+        "ep=\"\"\n",
+        "for i in range(1,n+1):\n",
+        "  s=str(input(\"write a word\"))\n",
+        "  if i in range (1,n):\n",
+        "    ep=ep+s+\"_\"\n",
+        "  else:\n",
+        "    ep=ep+s\n",
+        "\n",
+        "print(\"the sequence is\",ep)\n",
+        "epsplited=ep.split(\"_\")\n",
+        "lo=sorted(epsplited)\n",
+        "ssplit=\"\"\n",
+        "for i in lo:\n",
+        "  if lo.index(i)!=len(lo)-1:\n",
+        "    ssplit=ssplit+i+\"_\"\n",
+        "  else:\n",
+        "    ssplit=ssplit +i\n",
+        "print(\"the sorted sequense is\" , ssplit)    \n"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "write number of words 3\n"
+          ],
+          "name": "stdout"
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-7-62520d65b35f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"write number of words \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mep\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m\"\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mi\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrange\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m   \u001b[0ms\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"write a word\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m   \u001b[0;32mif\u001b[0m \u001b[0mi\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrange\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mn\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'n' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zEr5aOql34_y"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2bRalwvqnDio"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
